@@ -3,6 +3,7 @@ Findet Keywörter in einem Text mithilfe der deutschsprachigen Wikipedia. Das Sk
 
 Mit keyword-scanner sich relevante Schlüsselbegriffe zur weiteren Datenanalyse eines Textes finden.
 
+
 ### Installation
 Erforderlich sind die Python-Bibliotheken Levenshtein und spaCy (inklusive eines deutschen Sprachmoduls
 
@@ -11,6 +12,7 @@ pip install python-Levenshtein
 pio install spaCy
 python -m spacy download de_core_news_sm
 ```
+Zusätzlich muss sich [database.db](https://github.com/matthmeyer/keyword-scanner/releases/download/v0.0.1/database.db "Download database.db") im Ordner von keyword-scanner.py befinden. Zu finden ist die Datei unter [Release](https://github.com/matthmeyer/keyword-scanner/releases/tag/v0.0.1 "Open Releases").
 
 ### So funktioniert's
 
